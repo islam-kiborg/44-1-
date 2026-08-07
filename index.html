@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Steve head</title>
+	<style type="text/css">
+		.volosi{
+			width: 400px;
+			height: 100px;
+			background: black;
+			position: absolute;
+		}
+		.volosiPixel {
+			width: 50px;
+			height: 50px;
+			background: black;
+			position: absolute;
+		}
+		
+		.koja {
+			background: #bd8d75;
+			width: 400px;
+			height: 400px;
+		}
+		.koja2Pixel {
+			background: #bd8d75;
+			width: 100px;
+			height: 50px;
+			position: absolute;
+		}
+		.whitePixel {
+			width: 50px;
+			height: 50px;
+			background: white;
+			position: absolute;
+		}
+		.glaza{
+			width: 200px;
+			height: 50px;
+			background: blue;
+			position: absolute;
+			top: 200px;
+			left: 100px;
+		}
+		.boroda{
+			width: 200px;
+			height: 100px;
+			background: #2a1f1f;
+			position: absolute;
+			left: 100px;
+			top: 300px;
+		}
+		.mouth {
+			width: 100px;
+			height: 50px;
+			background: #dda589;
+			position: absolute;
+			left: 150px;
+			top: 300px;
+		}
+		.nose {
+			width: 100px;
+			height: 50px;
+			background: #725546;
+			position: absolute;
+			left: 150px;
+			top: 250px;
+		}
+
+	</style>
+</head>
+<body style="margin: 0px;">
+	<div class="koja">
+		<div class="volosi hair"></div>
+		<div class="volosiPixel hairL" style="top: 100px;"></div>
+		<div class="volosiPixel hairR" style="top: 100px;left: 350px;"></div>
+		<div class="whitePixel" style="top:200px;left: 50px;"></div>
+		<div class="whitePixel" style="top:200px;left: 300px;"></div>
+		<div class="glaza eyes"></div>
+		<div class="koja2Pixel" style="top: 200px;left: 150px;"></div>
+		<div class="nose"></div>
+		<div class="boroda beard"></div>
+		<div class="mouth"></div>
+	</div>
+	<script type="text/javascript">
+		let hair = document.querySelector('.hair')
+		let hairL = document.querySelector('.hairL')
+		let hairR = document.querySelector('.hairR')
+		let beard = document.querySelector('.beard')
+		let eyes = document.querySelector('.eyes')
+	
+        let hairColor = "pink"
+        document.querySelector('.hair').style.background = hairColor
+		document.querySelector('.hairL').style.background = hairColor
+		document.querySelector('.hairR').style.background = hairColor
+
+		let beardColor = " #725546"
+		document.querySelector('.beard').style.background = beardColor
+		
+		let eyesColor = "grey"
+		document.querySelector('.eyes').style.background = eyesColor
+		
+		//1.1 Через JS поменяй цвет волос и бороды на коричневый. 
+		//1.2 Посмотри папку 1.2, прочитай текстовый файл
+		//1.3 Посмотри папку 1.3, прочитай текстовый файл
+
+	
+
+	
+
+
+
+
+	</script>
+</body>
+</html>
